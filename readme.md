@@ -17,7 +17,6 @@
 
 # Docker
 
-docker build -t juankanh/ecommerce:0.1 .
-docker push juankanh/ecommerce:0.1
-
-docker run --name ecommerce -p 8080:8080 -ti juankanh/ecommerce:0.1
+- docker build -t juankanh/ecommerce:0.1 .
+- docker push juankanh/ecommerce:0.1
+- docker run --name ecommerce -p 8080:8080 -ti juankanh/ecommerce:0.1
